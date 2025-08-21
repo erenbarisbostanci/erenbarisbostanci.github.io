@@ -1,0 +1,36 @@
+[
+  {
+    "org": "Invest-Smart-COMP-491",
+    "title": "Invest-Smart-COMP-491",
+    "description": "InvestSmart is a full-stack financial platform that brings together real-time prices, market news, and predictive analytics for stocks and other assets. The mobile app is the core experience, complemented by a marketing website. Built end-to-end: frontend, backend, and data pipelines",
+    "limit": 9,
+    "exclude_forks": true,
+    "exclude_archived": true,
+    "sort": "pushed",
+    "show_all_link": true,
+    "pinned_badge": true,
+    "topics_max": 20
+  },
+  {
+    "org": "Hot-Map",
+    "title": "Hot-Map",
+    "description": "HotSum is a DSNet-based video summarization project that fuses anchor-based and anchor-free cues to detect temporal highlights. Bootstrapped data from YouTube’s “Most replayed” graph and evaluated on SumMe/TVSum. A Flutter mobile app with a Flask backend lets users upload videos and get instant summaries.",
+    "limit": 9,
+    "exclude_forks": true,
+    "exclude_archived": true,
+    "sort": "stars",
+    "show_all_link": true,
+    "pinned_badge": true
+  },
+  {
+    "org": "Confidential-Maternal-Health-Guardian",
+    "title": "Confidential Maternal Health Guardian",
+    "description": "Confidential Maternal Health Guardian is a privacy-first maternal-risk predictor using end-to-end differential privacy, Laplace-noised analytics, synthetic data, and DP training (DP-SGD/DP Random Forest), to resist membership-inference. A containerized Python/Spring Boot + React + PostgreSQL stack serves JWT-secured REST scoring.",
+    "limit": 9,
+    "exclude_forks": true,
+    "exclude_archived": true,
+    "sort": "stars",
+    "show_all_link": true,
+    "pinned_badge": true
+  }
+]

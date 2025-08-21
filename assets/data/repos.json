@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://github.com/ribo-apps/clickbait-spoiling-nlp-project",
+    "description": "Clickbait Challenge (SemEval 2023) — built a spoiler-generation system for clickbait posts using both few-shot LLMs and fine-tuned models. We compared TF-IDF and GPT-3.5 baselines with RoBERTa, LLaMA-7B (LoRA), Falcon-7B (QLoRA), and T5-Large; T5-Large achieved the best BLEU/BERTScore, surpassing GPT-3.5 on our validation set."
+  },
+  {
+    "url": "https://github.com/ribo-apps/slot-attention-gan",
+    "description": "Unpaired Image-to-Image Translation with Slot Attention — integrated Google’s Slot Attention into AttentionGAN by porting the module to PyTorch and replacing the generator’s spatial-attention block. Evaluated on CycleGAN-style tasks (summer↔winter, horse↔zebra, apple↔orange), observing stronger object preservation/contrast in some domains at the cost of more artifacts versus spatial attention. Included ablations on slot count and iterations with side-by-side comparisons against the original AttentionGAN."
+  }
+]

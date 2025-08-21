@@ -1,0 +1,41 @@
+html {
+      scroll-behavior: smooth;
+    }
+    
+  .clamp-2, .clamp-3, .clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .clamp-2 { -webkit-line-clamp: 2; line-clamp: 2; }
+  .clamp-3 { -webkit-line-clamp: 3; line-clamp: 3; }
+  .clamp-4 { -webkit-line-clamp: 4; line-clamp: 4; }
+
+  @supports (line-clamp: 3) {
+    .clamp-2, .clamp-3, .clamp-4 {
+      display: block;
+    }
+  }
+  .select-reset{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background-image:none; /* bazı tarayıcılarda oku arka plan olarak çizer */
+}
+
+/* Eski Edge/IE oku gizle (zararsız) */
+select.select-reset::-ms-expand{ display:none; }
+
+/* iOS/macOS Safari line-height/padding tutarlılığı */
+@supports (-webkit-touch-callout: none) {
+  select.select-reset{
+    line-height:1.25rem; /* ~leading-5 */
+    padding-top:0.5rem;  /* py-2 ile uyumlu */
+    padding-bottom:0.5rem;
+  }
+}
+
+/* Klavye ile odakta border “zıplamasın” diye ring offset */
+select.select-reset:focus{
+  outline: none;
+}
